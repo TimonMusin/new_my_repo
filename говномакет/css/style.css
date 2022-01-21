@@ -1,0 +1,536 @@
+
+
+.container{
+position: absolute;
+width: 1920px;
+height: 80px;
+background: #FFFFFF;
+}
+
+.head{
+	position: absolute;
+	width: 295px;
+	height: 50px;
+	left: 359px;
+	top: 15px;
+	background-color: white;
+
+}
+
+.button1{
+	position: absolute;
+	width: 169px;
+	height: 46px;
+	left: 1241px;
+	top: 17px;
+	background-color: #FFDF3A;
+    border-radius: 25px;
+	border:0;
+	color: #D86D00;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+.button2{
+	position: absolute;
+	width: 106px;
+	height: 46px;
+	left: 1423px;
+	top: 25px;
+	background-color: white;
+    border-radius: 25px;
+	color: #D86D00;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+.main{
+	position: absolute;
+	width: 1920px;
+	height: 506px;
+	left: 0px;
+	top: 77px;
+    background: linear-gradient(255.27deg, #8FC0EC 5.45%, rgba(237, 246, 255, 0.7) 60.41%);
+
+
+}
+
+.text{
+    position: absolute;
+    width: 648px;
+    height: 164px;
+    left: 359px;
+    top: 180px;
+    font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+    font-size: 40px;
+    line-height: 130%;
+    color: #555555;
+
+}
+
+.city{
+	position: absolute;
+	width: 658px;
+	height: 359px;
+	left: 929px;
+	top: 100px;
+
+}
+
+.button3{
+	position: absolute;
+	width: 261px;
+	height: 74px;
+	left: 359px;
+	top: 407px;
+	font-family: 'Nunito', sans-serif;
+    color: #D86D00;
+    background: linear-gradient(180deg, #FED31E 0%, #FFEC5F 100%);
+    border-radius: 64px;
+	border: 0;
+}
+
+.text2{
+	position: absolute;
+	width: 700px;
+	height: 46px;
+	left: 375px;
+	top: 560px;
+	font-family: 'Nunito', sans-serif;
+    color: #555555;
+    font-size: 34px;
+}
+
+.colortext{
+	color:#FED31E;
+}
+
+.main2{
+	position: absolute;
+    width: 1920px;
+    height: 515px;
+    left: 0px;
+    top: 582px;
+
+}
+
+.photo_slider{
+	position: absolute;
+	width: 270px;
+	height: 244px;
+	left: 381px;
+	top: 650px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+.photo_slider2{
+
+	position: absolute;
+width: 270px;
+height: 244px;
+left: 675px;
+top: 650px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+border-radius: 8px 8px 0px 0px;
+}
+
+.photo_slider3{
+	position: absolute;
+	width: 270px;
+	height: 244px;
+	left: 975px;
+	top: 650px;
+
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 8px 8px 0px 0px;
+}
+
+.photo_slider4{
+	position: absolute;
+	width: 270px;
+	height: 244px;
+	left: 1275px;
+	top: 650px;
+
+
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 8px 8px 0px 0px;
+}
+
+.button4 {
+	position: absolute;
+	width: 55px;
+	height: 20px;
+	left: 15px;
+	top: 15px;
+	background-color: #FED31E;
+	border-radius: 32px;
+	border: 0;
+
+	font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+	color: #555555;
+}
+
+.text4{
+	position: absolute;
+	width: 170px;
+	height: 16px;
+	left: 10px;
+	top: 160px;
+
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #848484;
+}
+
+.text5{
+	position: absolute;
+	width: 170px;
+	height: 16px;
+	left: 210px;
+	top: 160px;
+
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 16px;
+	color: #848484;
+}
+
+.text6{
+	position: absolute;
+	width: 260px;
+	height: 50px;
+	left: 10px;
+	top: 180px;
+
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	color: rgba(0, 0, 0, 0.9903);
+}
+
+
+.ellipse{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	left: 915px;
+top: 930px;
+
+background: #C4C4C4;
+	border-radius: 32px;
+}
+
+
+.ellipse1{
+	position: absolute;
+width: 10px;
+height: 10px;
+left: 935px;
+top: 930px;
+
+background: #FED31E;
+	border-radius: 32px;
+}
+
+.ellipse2{
+	position: absolute;
+width: 10px;
+height: 10px;
+left: 955px;
+top: 930px;
+
+background: #C4C4C4;
+	border-radius: 32px;
+}
+
+.ellipse3{
+	position: absolute;
+width: 10px;
+height: 10px;
+left: 975px;
+top: 930px;
+
+background: #C4C4C4;
+	border-radius: 32px;
+}
+
+.ellipse4{
+	position: absolute;
+width: 10px;
+height: 10px;
+left: 995px;
+top: 930px;
+
+background: #C4C4C4;
+	border-radius: 32px;
+}
+
+.ellipse5{
+	position: absolute;
+width: 10px;
+height: 10px;
+left: 995px;
+top: 930px;
+
+background: #C4C4C4;
+	border-radius: 32px;
+}
+
+.footer{
+	position: absolute;
+	width: 1920px;
+	height: 165px;
+	left: 0px;
+	top: 1070px;
+	background: rgba(143, 192, 236, 1);
+
+}
+
+.footer_logo{
+	position: absolute;
+
+left: 375px;
+top: 60px;
+
+}
+
+
+.socseti{
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 170px;
+height: 20px;
+left: 875px;
+top: 65px;
+
+}
+.fb{
+
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 30px;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 30px;
+}
+
+
+.tw{
+	position: static;
+width: 20px;
+height: 20px;
+left: 50px;
+top: 0px;
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 30px;
+}
+
+
+.inst{
+	position: static;
+	width: 20px;
+	height: 20px;
+	left: 100px;
+	top: 0px;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 0px 30px;
+}
+
+.vk{
+	position: static;
+width: 20px;
+height: 20px;
+left: 150px;
+top: 0px;
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 30px;
+}
+
+.comitet{
+	position: absolute;
+width: 310px;
+height: 12px;
+left: 870px;
+top: 120px;
+
+font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 100%;
+color: #FFFFFF;
+}
+
+.polit{
+	position: absolute;
+	width: 238px;
+	height: 16px;
+	left: 1302px;
+	top: 70px;
+
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 100%;
+	color: #FFFFFF;
+}
+
+.ysl{
+	position: absolute;
+	width: 162px;
+	height: 16px;
+	left: 1302px;
+	top: 100px;
+
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 100%;
+    color: #FFFFFF;
+}
+
+
+
+/* Собственно сам слайдер */
+.slider{
+ 
+    margin: auto;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+  
+}
+
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* При наведении на кнопки добавляем фон кнопок */
+
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+
+
+/* Кружочки */
+
+.slider-dots {
+  text-align: center;
+ 
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: #aaa;
+}
+
+
+/* Анимация слайдов */
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}

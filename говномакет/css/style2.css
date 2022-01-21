@@ -1,0 +1,196 @@
+
+.header{
+    padding: 10px;
+    height: 80px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    }
+  
+    
+    .head{
+        position: absolute;
+        width: 295px;
+        height: 50px;
+        left: 359px;
+        top: 15px;
+        background-color: white;
+    
+    }
+    
+    .button1{
+        
+        width: 169px;
+        height: 46px;
+        left: 1241px;
+        top: 17px;
+        background-color: #FFDF3A;
+        border-radius: 25px;
+        border:0;
+        color: #D86D00;
+        font-family: 'Nunito', sans-serif;
+    
+    }
+    
+    .button2{
+      
+        width: 106px;
+        height: 46px;
+        left: 1423px;
+        top: 25px;
+        background-color: white;
+        border-radius: 25px;
+        color: #D86D00;
+        font-family: 'Nunito', sans-serif;
+    
+    
+    }
+
+.main{
+  
+    width: 560px;
+    height: 600px;
+    top:200px;
+    left:650px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+
+
+}
+
+
+    .footer{
+        position: absolute;
+        width: 1920px;
+        height: 165px;
+        left: 0px;
+        top: 1070px;
+        background: rgba(143, 192, 236, 1);
+    
+    }
+    
+    .footer_logo{
+        position: absolute;
+    
+    left: 375px;
+    top: 60px;
+    
+    }
+    
+    
+    .socseti{
+        display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: 875px;
+    top: 65px;
+    
+    }
+    .fb{
+    
+        width: 20px;
+        height: 20px;
+        left: 0px;
+        top: 0px;
+    
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 30px;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+    }
+    
+    
+    .tw{
+        position: static;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 0px;
+    
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 30px;
+    }
+    
+    
+    .inst{
+        position: static;
+        width: 20px;
+        height: 20px;
+        left: 100px;
+        top: 0px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 0px 30px;
+    }
+    
+    .vk{
+        position: static;
+    width: 20px;
+    height: 20px;
+    left: 150px;
+    top: 0px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 30px;
+    }
+    
+    .comitet{
+        position: absolute;
+    width: 310px;
+    height: 12px;
+    left: 870px;
+    top: 120px;
+    
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFFFF;
+    }
+    
+    .polit{
+        position: absolute;
+        width: 238px;
+        height: 16px;
+        left: 1302px;
+        top: 70px;
+    
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+    
+    .ysl{
+        position: absolute;
+        width: 162px;
+        height: 16px;
+        left: 1302px;
+        top: 100px;
+    
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+        color: #FFFFFF;
+    
+    }
+    
