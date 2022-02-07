@@ -1,11 +1,6 @@
-.popup_content_change_type{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+
 .popup_content{
     height: 100%;
-    display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
@@ -33,7 +28,7 @@ font-size: 14px;color: #848484;
 }
 .popup_content_input{
     width: 80%;
-    height: 40%;
+    height: 87px;
     display: flex;
     align-items:center;
     justify-content: space-evenly;
@@ -43,6 +38,7 @@ font-size: 14px;color: #848484;
 .popup_content_input input{
     padding-left: 15px;
     height: 37px;
+    margin: 10px;
     width: calc(95%);
     background: #E4E2E2;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
@@ -60,4 +56,33 @@ left: 885px;
 height: 36px;
 background: #D86D00;
 border-radius: 4px;
+}
+#close_func{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #000;
+    font-size: 18px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.change_type{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.dev{
+    height: 1px;
+    width: 100%;
+    background: #c3c3c3;
+    /* background: #D86D00; */
+}
+.change_type_reg p, .change_type_log p{
+    padding: 0 20px 0 20px;
+}
+.change_type_reg p:hover, .change_type_log p:hover{
+    color:#D86D00 ;
 }
