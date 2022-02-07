@@ -1,0 +1,63 @@
+.popup_content_change_type{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.popup_content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.popup_reg div, .popup_submit div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+}
+.line_bottom{
+    border-bottom: 1px solid #C4C4C4;
+width: 100%;
+height: 1px;
+background-color: #C4C4C4;;
+}
+.popup_reg p, .popup_submit p{
+    padding: 0 35px 0 35px;
+    font-family: extraBold;
+font-size: 14px;color: #848484;
+}
+
+.popup_reg p:hover, .popup_submit p:hover{
+    color: #D86D00;
+}
+.popup_content_input{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.popup_content_input input{
+    padding-left: 15px;
+    height: 37px;
+    width: calc(95%);
+    background: #E4E2E2;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 1px solid #E4E2E2 ;
+  
+}
+.popup_content_submit button{
+    font-family: Nunito;
+font-style: normal;
+font-weight: bold;
+    text-align: center;
+    width: 249px;
+left: 885px;
+height: 36px;
+background: #D86D00;
+border-radius: 4px;
+}
