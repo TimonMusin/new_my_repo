@@ -155,20 +155,33 @@
               <div class="popup_content ">
                 <div class="popup_content_change_type">
                   <div class="change_type">
+                    
                     <div class="change_type_reg">
-                      <p>Регистрация</p>
+                      <p id="showreg" onclick="SetRegistrationView()">Регистрация</p>
                       <div class="dev"></div>
                     </div>
                     <div class="change_type_log">
-                      <p>Войти</p>
+                      <p id="showlog" onclick="SetLoginView()">Войти</p>
                       <div class="dev"></div>
                     </div>
-                    
+                  <p style="position: relative; left: 135px;top: 1px; font-size: 20px; cursor: pointer"> <a class="link" style="text-decoration: none; color: #848484" href="">x</a></p>
+
                   </div>
-                  <div class="type_content"></div>
+                  <div class="type_content">
+                    <div class="reg">
+                      <input type="text" class="input" placeholder="ФИО">
+                      <input type="text" class="input" placeholder="Логин">
+                      <input type="text" class="input" placeholder="Электронная почта">
+                      <input type="text" class="input" placeholder="Пароль">
+                      <input type="text" class="input" placeholder="Повтор пароля">
+                      <button class="btn col-lg-3 offset-4">Регистрация</button>
+                    </div>
+                    <div class="log">
+                      <input type="text" class="input" placeholder="Логин">
+                      <input type="text" class="input" placeholder="Пароль">
+                      <button class="btn col-lg-3 offset-4">Войти</button>
+                    </div>
                 </div>
-                
-                  
                 </div>
                 
               </div>
@@ -190,6 +203,7 @@
         $(document).ready(function(){
         //Скрыть PopUp при загрузке страницы    
         $("#popup1").hide();
+        SetRegistrationView();
         });
         //Функция отображения PopUp
         function PopUpShow(){
@@ -219,7 +233,20 @@
           return false;
         });
       });
- 
+          function SetRegistrationView(){
+                $(".log").hide();
+                $(".reg").show();
+                $("#showreg").css("color", "#D86D00");
+                $("#showlog").css("color", "#848484");
+                
+            }
+          function SetLoginView(){
+              $(".log").show();
+              $(".reg").hide();
+              $("#showlog").css("color", "#D86D00");
+              $("#showreg").css("color", "#848484");
+          }
+  
     </script>
 </body>
 
