@@ -24,8 +24,8 @@
                 <p>Городской портал по решению проблем</p>
             </div>
             <div class="header_registration">
-              <a href="javascript:PopUpShow()"><button class="btn" style="border-radius: 64px; background: #FFDF3A; color: #D86D00;">Регистрация</button></a>
-                <button class="btn" style="border: 2px solid #D86D00; box-sizing: border-box; border-radius: 64px; color: #D86D00;">Войти</button>
+              <button onclick="PopUpShow()" class="btn" style="border-radius: 64px; background: #FFDF3A; color: #D86D00;">Регистрация</button>
+              <button onclick="PopupLogin()" class="btn" style="border: 2px solid #D86D00; box-sizing: border-box; border-radius: 64px; color: #D86D00;">Войти</button>
             </div>
         </div>
         <div class="main_container mt-4">
@@ -169,18 +169,25 @@
                   </div>
                   <div class="type_content">
                     <div class="reg">
+                      <form action="">
                       <input type="text" class="input" placeholder="ФИО">
                       <input type="text" class="input" placeholder="Логин">
                       <input type="text" class="input" placeholder="Электронная почта">
                       <input type="text" class="input" placeholder="Пароль">
                       <input type="text" class="input" placeholder="Повтор пароля">
                       <button class="btn col-lg-3 offset-4">Регистрация</button>
+                      </form>
+                      
                     </div>
-                    <div class="log">
-                      <input type="text" class="input" placeholder="Логин">
-                      <input type="text" class="input" placeholder="Пароль">
-                      <button class="btn col-lg-3 offset-4">Войти</button>
-                    </div>
+                    <form action="">
+                      <div class="log">
+                        <input type="text" class="input" placeholder="Логин">
+                        <input type="text" class="input" placeholder="Пароль">
+                        <button class="btn col-lg-3 offset-4">Войти</button>
+                      </div>
+
+                    </form>
+                    
                 </div>
                 </div>
                 
@@ -205,6 +212,10 @@
         $("#popup1").hide();
         SetRegistrationView();
         });
+        function PopupLogin(){
+          PopUpShow();
+          SetLoginView();
+        }
         //Функция отображения PopUp
         function PopUpShow(){
             $("#popup1").show();
@@ -220,7 +231,7 @@
             target = $(this).val();
           });
           // НЕ ПЕРЕНОСИТЕ ЭТОТ ФРАГМЕНТ В SUBMIT
-      
+        
         $('form').submit( function () {
           
           if ( target == 'save' ) {
